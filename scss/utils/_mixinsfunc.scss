@@ -1,0 +1,15 @@
+@use "sass:math";
+
+@mixin crear__flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+@function pixeles-rem($pixeles){
+    $rem: math.div($pixeles, 16) * 1rem;
+
+    @return $rem;
+}

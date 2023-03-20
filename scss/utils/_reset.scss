@@ -1,0 +1,25 @@
+@import "../utils/mixinsfunc";
+@import "../utils/variables";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #ffffff;
+    color: #1e272e;
+    color: $color__principal;
+    font-size: pixeles-rem(16);
+  }
+  
+  a {
+    color: $color__principal;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
