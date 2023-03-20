@@ -30,7 +30,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30px;
+  height: 50px;
   padding: 20px 0;
   overflow-y: hidden;
 }
