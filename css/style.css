@@ -26,7 +26,6 @@ ul {
   margin: auto;
 } /* Contenedor Nav */
 .nav__main {
-  font-size: 1.125rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,14 +99,14 @@ hr {
 .menu__btn {
   cursor: pointer;
   position: absolute;
-  top: 22px;
+  top: 24px;
   right: 15px;
   z-index: 2;
   display: none;
 }
 
 .menu {
-  font-size: 1.5625rem;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 700px) {
@@ -116,10 +115,10 @@ hr {
     font-size: 1.25rem;
   }
   .user {
-    font-size: 1.4375rem;
+    font-size: 1.25rem;
   }
   .carrito {
-    font-size: 1.4375rem;
+    font-size: 1.25rem;
   }
   .nav__img {
     width: 100px;
@@ -133,7 +132,7 @@ hr {
   .carrito__btn {
     cursor: pointer;
     position: absolute;
-    top: 22px;
+    top: 24px;
     left: 8%;
     z-index: 4;
   }
@@ -141,7 +140,7 @@ hr {
   .user__btn {
     cursor: pointer;
     position: absolute;
-    top: 22px;
+    top: 24px;
     left: 1%;
     z-index: 3;
   }

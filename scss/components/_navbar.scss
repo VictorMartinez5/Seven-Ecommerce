@@ -4,7 +4,6 @@
 /* Contenedor Nav */
 
 .nav__main {
-  font-size: 1.125rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80,14 +79,14 @@ hr{
 .menu__btn {
   cursor: pointer;
   position: absolute;
-  top: 22px;
+  top: 24px;
   right: 15px;
   z-index: 2;
   display: none;
 }
 
 .menu{
-  font-size: pixeles-rem(25);
+  font-size: pixeles-rem(20);
 }
 
 @media (max-width: 700px) {
@@ -97,11 +96,11 @@ hr{
   }
 
   .user{
-    font-size: pixeles-rem(23);
+    font-size: pixeles-rem(20);
   }
   
   .carrito{
-    font-size: pixeles-rem(23);
+    font-size: pixeles-rem(20);
   }
 
   .nav__img {
@@ -117,7 +116,7 @@ hr{
   .carrito__btn {
     cursor: pointer;
     position: absolute;
-    top: 22px;
+    top: 24px;
     left: 8%;
     z-index: 4;
   }
@@ -125,7 +124,7 @@ hr{
   .user__btn {
     cursor: pointer;
     position: absolute;
-    top: 22px;
+    top: 24px;
     left: 1%;
     z-index: 3;
   }
