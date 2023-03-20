@@ -30,7 +30,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 50px;
   padding: 20px 0;
   overflow-y: hidden;
 }
@@ -42,7 +42,7 @@ hr {
 
 .nav__menu {
   translate: -40px;
-  padding-top: 12px;
+  padding-top: 8px;
 }
 
 .nav__img {
@@ -54,13 +54,13 @@ hr {
 
 /* Carrito de compra y user btn */
 .carrito__btn {
-  top: 6px;
+  top: 3px;
   left: 90%;
   position: relative;
 }
 
 .user__btn {
-  top: 6px;
+  top: 3px;
   left: 93%;
   position: relative;
 }
@@ -79,10 +79,9 @@ hr {
 }
 
 .nav__main ul li {
-  font-family: "Inconsolata", monospace;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 30px;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 .nav__main ul li a {
@@ -102,7 +101,7 @@ hr {
 .menu__btn {
   cursor: pointer;
   position: absolute;
-  top: 26px;
+  top: 22px;
   right: 15px;
   z-index: 2;
   display: none;
@@ -135,7 +134,7 @@ hr {
   .carrito__btn {
     cursor: pointer;
     position: absolute;
-    top: 26px;
+    top: 22px;
     left: 8%;
     z-index: 4;
   }
@@ -143,7 +142,7 @@ hr {
   .user__btn {
     cursor: pointer;
     position: absolute;
-    top: 26px;
+    top: 22px;
     left: 1%;
     z-index: 3;
   }
@@ -153,7 +152,7 @@ hr {
     width: 170px;
     margin: 20px;
     right: 35%;
-    padding-top: 5px;
+    padding-top: 12px;
   }
   .nav__main ul.nav__menu {
     display: none;
