@@ -29,6 +29,7 @@ ul {
   align-items: center;
   height: 60px;
   padding: 20px 0;
+  overflow-y: hidden;
 }
 
 hr {
@@ -152,7 +153,7 @@ hr {
     padding-top: 5px;
   }
   .nav__main ul.nav__menu {
-    display: block;
+    display: none;
     position: absolute;
     top: 0px;
     left: 66%;
