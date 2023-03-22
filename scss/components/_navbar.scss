@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
+  height: 60px;
   padding: 20px 0;
 }
 
@@ -18,35 +18,36 @@ hr{
 
 .nav__menu{
   translate: -40px;
-  padding-top: 8px;
+  padding-top: 25px;
 }
 
 .nav__img {
   width: 200px;
   position: relative;
   margin-left: -50px;
-  padding-top: 38px;
+  padding-top: 50px;
 }
 
 /* Carrito de compra y user btn */
 .carrito__btn {
-  top: 3px;
+  top: 12px;
   left: 90%;
   position: relative;
 }
 
 .user__btn {
-  top: 3px;
+  top: 12px;
   left: 93%;
   position: relative;
 }
 
 .user{
-  font-size: pixeles-rem(25);
+  font-size: pixeles-rem(20);
 }
 
 .carrito{
-  font-size: pixeles-rem(25);
+  font-size: pixeles-rem(20);
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Nav Menu */
