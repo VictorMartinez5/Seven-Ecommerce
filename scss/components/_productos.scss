@@ -1,60 +1,49 @@
+@import "../utils/mixinsfunc";
+@import "../utils/variables";
+
 .container-productos {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 2fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px 10px;
     justify-content: center;
-    }
-    
-    .div1 img{ 
-        border: 1px rgb(54, 52, 52) solid;
-        width: 300px;
-        height: 350px;
-        grid-area: 1 / 1 / 2 / 2; }
+    gap: 20px 15px;
+    margin: 2px;
+}
 
-    .div2 img{ 
-        border: 1px black solid;
-        width: 300px;
-        height: 350px;
-        grid-area: 1 / 2 / 2 / 3; }
+.porducto{
+    padding: 8px;
 
-    .div3 img{ 
-        border: 1px black solid;
-        width: 300px;
-        height: 350px;
-        grid-area: 1 / 3 / 2 / 4; }
 
-    .div4 img{ 
-        border: 1px black solid;
-        width: 300px;
-        height: 350px;
-        grid-area: 1 / 4 / 2 / 5; }
+&:hover{
+    border: 1px rgb(216, 214, 214) solid;
+    scale: 1.1;
+    border-radius: 8px;
+}
+}
 
-    .div5 img{ 
-        border: 1px black solid;
-        width: 300px;
-        height: 350px;
-        grid-area: 1 / 5 / 2 / 6; }
+.porducto img {
+    width: 300px;
+    height: 350px;
+}
 
-    .div6 img{ 
+.contenido_productos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
 
-        grid-area: 2 / 1 / 3 / 2; }
+.title{
+    font-size: pixeles-rem(16);
+    color: rgb(102, 101, 101);
+}
 
-    .div7 img{ 
+.precio {
+    font-size: pixeles-rem(26);
+}
 
-        grid-area: 2 / 2 / 3 / 3; }
-
-    .div8  img{ 
-
-        grid-area: 2 / 3 / 3 / 4; }
-
-    .div9 img{ 
-
-        grid-area: 2 / 4 / 3 / 5; }
-
-    .div10 img{ 
-
-        grid-area: 2 / 5 / 3 / 6; }
-
+.btn_add{
+    background-color: rgba(0, 255, 13, 0.822);
+    padding: pixeles-rem(10);
+    border-radius: 6px 6px;
+    font-size: pixeles-rem(12);
+}

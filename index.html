@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seven</title>
     <link rel="icon" href="./img/logo.png">
+    <!-- Boostrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
+    <!-- Hoja de estilos propios -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Iconos Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- Inconsolata -->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,17 +31,20 @@
 
                 <!-- Carrito btn -->
                 <div class="carrito__btn">
-                    <i class="carrito fa-solid fa-cart-shopping" id="">0</i>
+                    <a data-bs-toggle="modal" data-bs-target="#modal">
+                      <i class="carrito bi bi-cart" id="carritoContenedor">0</i>
+                    </a>
                 </div>
+                
 
                 <!-- User btn -->
                 <div class="user__btn">
-                    <i class="user fa-solid fa-user"></i>
+                    <i class="user bi bi-person"></i>
                 </div>
 
                 <!-- Menu btn -->
                 <div class="menu__btn">
-                    <i class="menu fa-sharp fa-solid fa-bars"></i>
+                    <i class="menu bi bi-list"></i>
                 </div>
 
                 <!-- Logo -->
@@ -70,83 +78,46 @@
         <div class="portada">
         </div>
 
-        <section>
+        <aside>
             <div class="container-filtro">
 
 
-                    <a href="">
-                        <div class="container-remera">
-                            <h3>REMERAS</h3>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="container-pantalones">
-                            <h3>PANTALONES</h3>
-                        </div>
-                    </a>
+                <a href="">
+                    <div class="container-remera">
+                        <!-- <h3>REMERAS</h3> -->
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="container-pantalones">
+                        <!-- <h3>PANTALONES</h3> -->
+                    </div>
+                </a>
 
-                        <div class="container-buzos">
-                            <h3>BUZOS</h3>
-                        </div>
+                <div class="container-buzos">
+                    <!-- <h3>BUZOS</h3> -->
+                </div>
 
-                    <a href="#">
-                        <div class="container-camperas">
-                            <h3>CAMPERAS</h3>
-                        </div>
-                    </a>
+                <a href="#">
+                    <div class="container-camperas">
+                        <!-- <h3>CAMPERAS</h3> -->
+                    </div>
+                </a>
             </div>
-        </section>
+        </aside>
 
-        <section>
-            <div class="container-productos">
+        <section class="container-productos" id="contenedor">
 
-                <div class="div1"> 
-                    <img src="./img/angel_guardian.png" alt="">
-                </div>
-
-                <div class="div2"> 
-                    <img src="./img/cosmos_blanca.png" alt="">
-                </div>
-
-                <div class="div3">
-                    <img src="./img/hoodie_fuck.png" alt="">
-                </div>
-
-                <div class="div4"> 
-                    <img src="./img/cosmos_crema.png" alt="">
-                </div>
-
-                <div class="div5"> 
-                    <img src="./img/angel_guardian.png" alt="">
-                </div>
-
-                <div class="div6"> 
-                    <p>Angel de la guardia</p>
-                </div>
-
-                <div class="div7"> 
-                    <p>Angel de la guardia</p>
-                </div>
-                    
-                <div class="div8"> 
-                    <p>Angel de la guardia</p>
-                </div>
-
-                <div class="div9"> 
-                    <p>Angel de la guardia</p>
-                </div>
-
-                <div class="div10"> 
-                    <p>Angel de la guardia</p>
-                </div>
-
-            </div>
         </section>
 
     </div>
+    <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- MainJS -->
     <script src="./js/main.js"></script>
-    <script src="https://kit.fontawesome.com/8f9fce919b.js" crossorigin="anonymous"></script>
+    <!-- BoostrapJS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- SweetAlert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
